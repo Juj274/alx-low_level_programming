@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * Main - Main fuction
+/**
+ * main - Main fuctio of my project will initialize the code
  *
- * return return(0) allways return zero
+ * Return: return 0 allways return zero
  */
 int main(void)
 {
