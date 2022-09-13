@@ -1,16 +1,9 @@
 #include <stdio.h>
-
-
-
-/**
+/*
+ * Main - Main fuction
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * return return(0) allways return zero
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
