@@ -12,7 +12,7 @@ int main(void)
 {
 	int i;
 
-	i = 94 % 2;
+	i = 98;
 	positive_or_negative(i);
 
 	return (0);
