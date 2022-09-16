@@ -1,4 +1,4 @@
-#include "main.h"
+#include "0-isupper.c"
 #include <stdio.h>
 /**
  * main - checks the code
