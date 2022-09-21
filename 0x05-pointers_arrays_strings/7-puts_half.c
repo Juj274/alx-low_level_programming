@@ -10,19 +10,31 @@
  */
 void puts_half(char *str)
 {
-	int j, i = 0;
+	int pace;
+	int finalpace;
+	int i;
 
-	while (*(str + i))
-		i++;
-	j = i / 2;
-	if (i % 2)
-		j += 1;
-	while (j < i)
+	while (*(str + pace) != 0)
 	{
-		_putchar(*(str + i));
-		j++;
+		pace++;
 
 	}
+	pace--;
+	if (pace % 2 == 0)
+	{
+		finalpace = pace / 2;
+	}
+	else
+	{
+		finalpace = (pace -1) / 2;
+	}
+	for (i = finalpace + 1; i <= pace; i++)
+	{
+		_putchar(*(str +i));
+	}
 	_putchar('\n');
+
+
+
 
 }
