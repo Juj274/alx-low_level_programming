@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concantenetaes two stirngs.
+ * _strncat - concantenetaes two stirngs.
  * @dest: deststring.
  * @src: src string.
  * @n: limit.
