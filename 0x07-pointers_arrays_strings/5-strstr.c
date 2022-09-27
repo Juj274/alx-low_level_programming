@@ -1,21 +1,20 @@
-#include "main.h"
 /**
- * _strstr - prints the consecutive caracters of s1 that are in s2.
- * @haystack: source string
- * @needle: searching string
+ * _strstr - searches a string for a substring
  *
+ * @haystack: string to search
+ * @needle: sub string to search for
  *
- * Return: new string
+ * Return: pointer to byte at start of substring, or
+ * NULL if substring not found
  */
 char *_strstr(char *haystack, char *needle)
 {
 	char *hayptr, *ndlptr;
 
-	while (haystack != 0)
+	while (*haystack != 0)
 	{
 		hayptr = haystack;
 		ndlptr = needle;
-
 		if (*ndlptr == 0)
 			return (haystack);
 		while (*hayptr != 0)
